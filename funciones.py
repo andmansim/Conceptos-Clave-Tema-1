@@ -2,6 +2,8 @@ class Punto:
     def __init__(self, x, y):
         self.x = x
         self.y = y
+
+            
     def get(self):
         pass
     def setter(self):
@@ -28,8 +30,11 @@ class Punto:
             print('Estamos sobre el eje y')
         
     
-    def vector(self):
-        pass
+    def vector(self, x1, y1):
+        self.x1 = x1
+        self.y1 = y1
+        v = (self.x - self.x1, self.y - self.y1)
+        print('El vector es' + str(v)) 
     
     def distancia(self):
         pass
