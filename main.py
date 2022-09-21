@@ -36,8 +36,10 @@ if __name__=='__main__':
     print('El vector BA')
     punto.setter(B1, B2)
     vector = punto.vector(A1, A2)
+    d1 = punto.distancia(A1, A2)
     print(vector)
     
-    print('La distancia de A a B': + str(d))
+    print('La distancia de A a B es: ' + str(d))
+    print('La distancia de B a A es: ' + str(d1))
     
     
