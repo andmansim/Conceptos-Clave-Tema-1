@@ -19,9 +19,11 @@ if __name__=='__main__':
     print('Cuadrantes de:')
     print('A')
     punto.setter(A1, A2)
+    d3 = round(punto.distancia(D1, D2), 2)
     punto.cuadrante()
     print('C')
     punto.setter(C1, C2)
+    d4 = round(punto.distancia(D1, D2), 2)
     punto.cuadrante()
     print('D')
     punto.setter(D1,D2)
@@ -30,16 +32,21 @@ if __name__=='__main__':
     print('El vector AB')
     punto.setter(A1, A2)
     vector1 = punto.vector(B1, B2)
-    d = punto.distancia(B1, B2)
+    d = round(punto.distancia(B1, B2), 2)
     print(vector1)
     
     print('El vector BA')
     punto.setter(B1, B2)
     vector = punto.vector(A1, A2)
-    d1 = punto.distancia(A1, A2)
+    d1 = round(punto.distancia(A1, A2), 2)
     print(vector)
+    
+    punto.setter(5, 5)
+    d5 = round(punto.distancia(D1, D2), 2)
     
     print('La distancia de A a B es: ' + str(d))
     print('La distancia de B a A es: ' + str(d1))
+    
+    print(d3, d4, d5)
     
     
