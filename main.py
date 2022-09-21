@@ -48,5 +48,9 @@ if __name__=='__main__':
     print('La distancia de B a A es: ' + str(d1))
     
     print(d3, d4, d5)
+    lista = [d3, d4, d5]
+    for i in range(len(lista)):
+        if lista[i-1] > lista[i]:
+            lista[i-1], lista[i] = lista[i], lista[i-1]
     
-    
+    print(lista)
