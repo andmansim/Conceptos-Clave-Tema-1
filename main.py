@@ -1,5 +1,4 @@
-from funciones import Punto
-import math
+from clases import Punto
 
 if __name__=='__main__':
     punto = Punto()
