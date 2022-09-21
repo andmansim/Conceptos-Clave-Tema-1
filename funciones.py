@@ -21,7 +21,7 @@ class Punto:
                 print('El punto está en el tercer cuadrante')
             else:
                 print('El punto está sobre el eje X')
-        elif self.y == 0:
+        elif self.y != 0 and self.x == 0:
             print('Estamos sobre el eje y')
         
     
