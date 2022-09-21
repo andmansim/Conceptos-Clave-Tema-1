@@ -1,13 +1,13 @@
 class Punto:
-    def __init__(self, x, y):
+    def __init__(self):
+        self.x = 0
+        self.y = 0
+       
+    def get(self):
+        return self.x and self.y
+    def setter(self, x, y):
         self.x = x
         self.y = y
-
-            
-    def get(self):
-        pass
-    def setter(self):
-        pass
         
     def cuadrante(self):
         if self.x and self.y == 0:
