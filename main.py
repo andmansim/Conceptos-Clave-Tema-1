@@ -17,7 +17,12 @@ if __name__=='__main__':
     print('Los puntos son: ' + str(A) + ', ' + str(B) + ', ' + str(C) + ' y ' + str(D) )
     print('Cuadrantes de:')
     print('A')
+    punto.setter(2, 3)
+    punto.cuadrante()
+    print('C')
+    punto.setter(-3, -1)
+    print('D')
+    punto.setter(0,0)
     
-    print('B')
-    b.cuadrante()
+    
     
