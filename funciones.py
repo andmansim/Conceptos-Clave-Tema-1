@@ -39,11 +39,16 @@ class Punto:
         return v
         
     
-    def distancia(self):
-        pass
+    def distancia(self, x1, y1):
+        self.x1 = x1
+        self.y1 = y1
+        v1 = ((self.x - self.x1)**2, (self.y - self.y1)**2)
+        print(v1)
+        return math.sqrt(v1)
     
 
 class Ractangulo(Punto):
     def __init__(self):
         Punto.__init__(self)
         
+    
