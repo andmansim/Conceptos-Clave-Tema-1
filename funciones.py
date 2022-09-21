@@ -1,3 +1,5 @@
+import math
+
 class Punto:
     def __init__(self):
         self.x = 0
@@ -39,3 +41,9 @@ class Punto:
     
     def distancia(self):
         pass
+    
+
+class Ractangulo(Punto):
+    def __init__(self):
+        Punto.__init__(self)
+        
