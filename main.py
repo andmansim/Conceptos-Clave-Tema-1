@@ -52,5 +52,6 @@ if __name__=='__main__':
     for i in range(len(lista)):
         if lista[i-1] > lista[i]:
             lista[i-1], lista[i] = lista[i], lista[i-1]
+    print('La mayor distancia es ' + str(lista[-1]))
+    print('El punto con mayor distancia es el B ' )
     
-    print(lista)
