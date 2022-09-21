@@ -34,7 +34,8 @@ class Punto:
         self.x1 = x1
         self.y1 = y1
         v = (self.x - self.x1, self.y - self.y1)
-        print('El vector es' + str(v)) 
+        return v
+        
     
     def distancia(self):
         pass

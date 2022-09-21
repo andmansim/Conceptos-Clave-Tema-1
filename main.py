@@ -17,12 +17,23 @@ if __name__=='__main__':
     print('Los puntos son: ' + str(A) + ', ' + str(B) + ', ' + str(C) + ' y ' + str(D) )
     print('Cuadrantes de:')
     print('A')
-    punto.setter(2, 3)
+    punto.setter(A1, A2)
     punto.cuadrante()
     print('C')
-    punto.setter(-3, -1)
+    punto.setter(C1, C2)
+    punto.cuadrante()
     print('D')
-    punto.setter(0,0)
+    punto.setter(D1,D2)
+    punto.cuadrante()
     
+    print('El vector AB')
+    punto.setter(A1, A2)
+    vector1 = punto.vector(B1, B2)
+    print(vector1)
+    
+    print('El vector BA')
+    punto.setter(B1, B2)
+    vector = punto.vector(A1, A2)
+    print(vector)
     
     
