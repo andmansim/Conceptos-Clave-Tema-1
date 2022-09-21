@@ -42,8 +42,7 @@ class Punto:
     def distancia(self, x1, y1):
         self.x1 = x1
         self.y1 = y1
-        v1 = ((self.x - self.x1)**2, (self.y - self.y1)**2)
-        print(v1)
+        v1 = ((self.x - self.x1)**2 + (self.y - self.y1)**2)
         return math.sqrt(v1)
     
 

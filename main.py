@@ -38,4 +38,6 @@ if __name__=='__main__':
     vector = punto.vector(A1, A2)
     print(vector)
     
+    print('La distancia de A a B': + str(d))
+    
     
