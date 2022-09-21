@@ -11,4 +11,9 @@ if __name__=='__main__':
     punto.setter(0,0)
     D = punto.get()
     print('Los puntos son: ' + str(A) + ', ' + str(B) + ', ' + str(C) + ' y ' + str(D) )
-    #punto.cuadrante()
+    print('Cuadrantes de:')
+    print('A')
+    A.cuadrante()
+    print('B')
+    B.cuadrante()
+    
