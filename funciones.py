@@ -4,7 +4,7 @@ class Punto:
         self.y = 0
        
     def get(self):
-        return (self.x, self.y)
+        return self.x, self.y
     def setter(self, x, y):
         self.x = x
         self.y = y
